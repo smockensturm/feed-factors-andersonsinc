@@ -1,0 +1,22 @@
+dateModified: 1691069601
+email:
+  fromEmail: clare_spafford@andersonsinc.com
+  fromName: 'Feed Factors'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    45b6a722-0451-438d-a395-e48fbd911ee9: Common # Common
+    5295d6da-5ed9-4a07-9721-ff6c8cc061b2: 'Feed Factors' # Feed Factors
+    e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
+system:
+  edition: solo
+  live: true
+  name: 'Feed Factors'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
