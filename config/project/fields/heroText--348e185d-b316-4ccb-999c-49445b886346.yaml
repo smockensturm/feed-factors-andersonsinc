@@ -1,0 +1,27 @@
+columnSuffix: yuaqfzrz
+contentColumnType: text
+fieldGroup: bd6f2a96-c03a-4fc3-9bee-4f392ccab890 # Home Page
+handle: heroText
+instructions: null
+name: 'Hero Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

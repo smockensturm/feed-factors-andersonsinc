@@ -54,8 +54,38 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
-        name: Content
+          -
+            elementCondition: null
+            fieldUid: 348e185d-b316-4ccb-999c-49445b886346 # Hero Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a9d9b0b-4b02-42d1-a3a1-a98372ea9640
+            userCondition: null
+            warning: null
+            width: 100
+        name: Hero
         uid: e90e6313-f01f-41fd-8a03-9a9c8cad0301
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 19bec4ec-4999-4efe-8cfc-3bb6ab779bf6 # Products
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7455f78c-7700-45a8-9229-5046452a5461
+            userCondition: null
+            warning: null
+            width: 100
+        name: Products
+        uid: 70cbd938-4af0-48a7-a145-907cc8069f7d
         userCondition: null
 handle: home
 hasTitleField: false

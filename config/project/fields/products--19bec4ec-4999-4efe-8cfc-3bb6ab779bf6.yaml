@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: bd6f2a96-c03a-4fc3-9bee-4f392ccab890 # Home Page
+handle: products
+instructions: null
+name: Products
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_products}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
