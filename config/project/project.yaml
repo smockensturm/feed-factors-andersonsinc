@@ -1,4 +1,4 @@
-dateModified: 1691149982
+dateModified: 1691150548
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -22,6 +22,11 @@ meta:
     b5be2983-4df9-4ff7-82ee-6d496fc7b647: Home # Home
     bd6f2a96-c03a-4fc3-9bee-4f392ccab890: 'Home Page' # Home Page
     e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
