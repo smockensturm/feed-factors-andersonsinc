@@ -1,12 +1,26 @@
-dateModified: 1691069601
+dateModified: 1691149982
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  imageUpload:
+    hasUrls: true
+    name: 'Image Upload'
+    settings:
+      path: '@assetBasePath'
+    type: craft\fs\Local
+    url: '@assetBaseUrl'
 meta:
   __names__:
+    30f565ed-7240-4efe-a184-fc54e0316ce7: Uploads # Uploads
     45b6a722-0451-438d-a395-e48fbd911ee9: Common # Common
+    554cf4a0-139a-46bd-beda-53682ebb6be9: Home # Home
+    959c8c36-64ab-4b18-80e1-cec06be400a7: 'Hero Title' # Hero Title
     5295d6da-5ed9-4a07-9721-ff6c8cc061b2: 'Feed Factors' # Feed Factors
+    72743e88-3dd3-478e-83b3-747a3bb41bf1: 'Hero Image' # Hero Image
+    b5be2983-4df9-4ff7-82ee-6d496fc7b647: Home # Home
+    bd6f2a96-c03a-4fc3-9bee-4f392ccab890: 'Home Page' # Home Page
     e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
 system:
   edition: solo

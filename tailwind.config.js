@@ -2,11 +2,14 @@
 module.exports = {
   content: ['templates/**/*.twig'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+      }
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    styled: true, // include daisyUI colors and design decisions for all components
+    // styled: false, // include daisyUI colors and design decisions for all components
   },
 
 }
