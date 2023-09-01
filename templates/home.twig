@@ -3,8 +3,8 @@
 
 	{% set image = entry.heroImage.one() %}
 	<div class="hero min-h-screen bg-cover bg-center flex justify-center items-center" style="background-image: url({{ image.url }});">
-		<div class="hero-content text-center text-neutral-content bg-slate-300/50 rounded-lg ">
-			<h1 class="p-14 text-black text-5xl font-bold">{{ entry.heroTitle }}</h1>
+		<div class="hero-content text-center text-neutral-content rounded-lg ">
+			<h1 class="p-14 text-black text-5xl font-bold uppercase">{{ entry.heroTitle }}</h1>
 		</div>
 	</div>
 

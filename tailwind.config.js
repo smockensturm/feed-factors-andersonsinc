@@ -5,7 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
+      colors: {
+        "ff-blue": "#011A48",
+        "ff-btn-blue": "#2B367A",
+        "ff-yellow": "#DFC99F"
       }
     },
   },
