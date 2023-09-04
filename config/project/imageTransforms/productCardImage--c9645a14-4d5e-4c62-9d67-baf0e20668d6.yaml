@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: productCardImage
+height: 400
+interlace: none
+mode: crop
+name: 'Product Card Image'
+position: center-center
+quality: 100
+upscale: true
+width: 400

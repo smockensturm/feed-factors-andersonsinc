@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: featuredService
+height: 500
+interlace: none
+mode: crop
+name: 'Featured Service'
+position: center-center
+quality: 100
+upscale: true
+width: 1400

@@ -41,10 +41,42 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 1c2d9731-7ee9-4411-be83-15a962a4f4a6 # Product Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83f5e789-8f93-4247-8db0-f2eb1886b823
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 14dd299a-a19f-4659-a18d-11169481a29f
         userCondition: null
 fields:
+  1c2d9731-7ee9-4411-be83-15a962a4f4a6: # Product Link
+    columnSuffix: uwkknhqn
+    contentColumnType: text
+    fieldGroup: null
+    handle: productLink
+    instructions: null
+    name: 'Product Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
   77db26de-4493-41b3-92f3-cbe2f057c743: # Photo
     columnSuffix: null
     contentColumnType: string
@@ -84,7 +116,7 @@ fields:
             - class
             - craft\elements\conditions\assets\AssetCondition
       selectionLabel: 'Add a photo'
-      showSiteMenu: false
+      showSiteMenu: true
       showUnpermittedFiles: false
       showUnpermittedVolumes: false
       sources:

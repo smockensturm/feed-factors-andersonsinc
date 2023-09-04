@@ -87,10 +87,67 @@ fieldLayouts:
         name: Products
         uid: 70cbd938-4af0-48a7-a145-907cc8069f7d
         userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b9491886-e188-4793-a4d1-bc152e156413 # Featured Service Background Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c4cb0e72-835d-437a-9c78-a1a79bec95e4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fb9844f8-ed04-4183-9774-aed148fe9ca9 # Featured Service Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 14cc5c2e-adb5-4696-bc56-e7cc998a01e1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cc104013-5f50-42dc-ae33-8936c27e3310 # Featured Service Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 19b15581-dafd-455a-9817-5deba567a1a7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6860d189-127f-47f4-b4db-78acd881d3a9 # Featured Service Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dfa2b5b4-ee23-4eb7-9a75-47d8ab40c710
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Featured Service'
+        uid: ae95f4e0-6c16-47a9-87e0-7bf563e431f7
+        userCondition: null
 handle: home
 hasTitleField: false
 name: Home
 section: b5be2983-4df9-4ff7-82ee-6d496fc7b647 # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
 sortOrder: 1
 titleFormat: '{section.name|raw}'
 titleTranslationKeyFormat: null
