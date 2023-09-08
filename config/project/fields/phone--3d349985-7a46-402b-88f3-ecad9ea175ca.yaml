@@ -1,0 +1,19 @@
+columnSuffix: rwkmsznz
+contentColumnType: text
+fieldGroup: dfd55486-848c-47c3-b7f3-a06bfac39166 # Header
+handle: phone
+instructions: null
+name: Phone
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

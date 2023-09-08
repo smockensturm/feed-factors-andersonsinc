@@ -6,6 +6,30 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
+            fieldUid: 3d349985-7a46-402b-88f3-ecad9ea175ca # Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 06f3dde5-52a5-4d1d-a8d3-e2c52a92a7fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1512a705-46ac-4ba2-a263-7358b242643f # Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 31c26ce6-11f4-412a-b0cb-b3c38c6264f2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 48f73b93-d2e4-47e8-a341-c5535cf1e3d3 # Nav Links
             instructions: null
             label: null
