@@ -1,0 +1,19 @@
+columnSuffix: ildsegzp
+contentColumnType: text
+fieldGroup: 058c882e-bc37-46e8-9545-25abe74f2681 # Accreditations
+handle: accreditationsTitle
+instructions: null
+name: 'Accreditations Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,48 @@
+fieldLayouts:
+  31a31907-3237-48fd-a557-408748d06b23:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: edfe699f-1037-41d4-9b66-5fc0b25010d9 # Accreditations Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d90c03da-5aef-435d-a819-8d6618b2cadf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b281cb53-4bf7-4965-bdf0-952d9479431b # Accreditations Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 245f5e4c-b1dd-4e67-9fd5-c66c1ac9a60c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f36729a9-f758-413f-90f2-5fee91209ce4 # Accreditations Logos
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fab4be1c-aaf8-4a46-8b94-f037acb4ad8b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6209ebbc-3c9b-4b66-9877-024fd770f168
+        userCondition: null
+handle: accreditations
+name: Accreditations
+sortOrder: 2

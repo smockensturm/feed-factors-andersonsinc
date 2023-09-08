@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 058c882e-bc37-46e8-9545-25abe74f2681 # Accreditations
+handle: accreditationsLogos
+instructions: null
+name: 'Accreditations Logos'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_accreditationslogos}}'
+  maxBlocks: null
+  minBlocks: 7
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

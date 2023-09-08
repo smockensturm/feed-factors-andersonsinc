@@ -1,0 +1,19 @@
+columnSuffix: otsfuyqg
+contentColumnType: text
+fieldGroup: 058c882e-bc37-46e8-9545-25abe74f2681 # Accreditations
+handle: accreditationsText
+instructions: null
+name: 'Accreditations Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

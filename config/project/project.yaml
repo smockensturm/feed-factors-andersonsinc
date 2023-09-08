@@ -1,4 +1,4 @@
-dateModified: 1694176398
+dateModified: 1694178245
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -22,13 +22,16 @@ meta:
     8bdd2fe3-231a-4800-9366-938ad4f55b17: 'Awards and Accolades' # Awards and Accolades
     19bec4ec-4999-4efe-8cfc-3bb6ab779bf6: Products # Products
     22e90156-5efa-4274-974e-05735a0d4496: 'Ports & Storage' # Ports & Storage
+    29b79aad-a8be-4611-a84f-e1aa11ee6a0e: Logo # Logo
     30f565ed-7240-4efe-a184-fc54e0316ce7: Uploads # Uploads
     32ae9651-c036-48a8-b929-d86988ffd8ca: Link # Link
     34f5e818-2d2b-4eba-8f40-35abc9466544: 'Link Destination' # Link Destination
+    40cac22c-ac84-4754-9141-0bebc47d855f: Accreditations # Accreditations
     45b6a722-0451-438d-a395-e48fbd911ee9: Common # Common
     045e1375-baca-43e0-bc7d-aafb3528b5df: 'Contact Us' # Contact Us
     48f73b93-d2e4-47e8-a341-c5535cf1e3d3: 'Nav Links' # Nav Links
     49be7a3a-8951-44e7-a4af-72d91710d950: 'Product Links' # Product Links
+    058c882e-bc37-46e8-9545-25abe74f2681: Accreditations # Accreditations
     77db26de-4493-41b3-92f3-cbe2f057c743: Photo # Photo
     85e835c3-278b-489b-93cb-6f2f07650688: 'Product Link' # Product Link
     258eb096-759c-4203-be41-eb0e87d51184: 'About Us' # About Us
@@ -41,12 +44,16 @@ meta:
     1512a705-46ac-4ba2-a263-7358b242643f: Email # Email
     5295d6da-5ed9-4a07-9721-ff6c8cc061b2: 'Feed Factors' # Feed Factors
     6860d189-127f-47f4-b4db-78acd881d3a9: 'Featured Service Link' # Featured Service Link
+    69786f5c-16c1-4395-aafc-99b4168163b8: 'Accreditations Logos' # Accreditations Logos
     72743e88-3dd3-478e-83b3-747a3bb41bf1: 'Hero Image' # Hero Image
+    38954585-cd2a-48ce-87e7-39f40bc4a4f6: Logo # Logo
     58799525-d9b5-4e70-ac6d-c343f77507a1: Organic # Organic
     a5320ca1-a946-4261-91c8-9ae7620d5418: 'Non GM & Animal Feed' # Non GM & Animal Feed
     b2bfedd2-94f0-42d6-957a-61849e3979ac: 'Awards and Accolades' # Awards and Accolades
     b5be2983-4df9-4ff7-82ee-6d496fc7b647: Home # Home
     b8a881c8-6719-43ae-a610-5a8990bbbd66: 'Product Title' # Product Title
+    b281cb53-4bf7-4965-bdf0-952d9479431b: 'Accreditations Text' # Accreditations Text
+    b7459c22-a422-4e46-960c-a10209e26641: Description # Description
     b9491886-e188-4793-a4d1-bc152e156413: 'Featured Service Background Image' # Featured Service Background Image
     bd6f2a96-c03a-4fc3-9bee-4f392ccab890: 'Home Page' # Home Page
     c5ccd1eb-d4c5-401b-a958-2c64259f9057: Product # Product
@@ -61,6 +68,8 @@ meta:
     e5e32361-cb97-4a12-9f07-6bf20deb6dea: 'Ports & Storage' # Ports & Storage
     e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
     ec4a4386-ade3-42d7-8a23-e2b919627f86: Description # Description
+    edfe699f-1037-41d4-9b66-5fc0b25010d9: 'Accreditations Title' # Accreditations Title
+    f36729a9-f758-413f-90f2-5fee91209ce4: 'Accreditations Logos' # Accreditations Logos
     fb9844f8-ed04-4183-9774-aed148fe9ca9: 'Featured Service Title' # Featured Service Title
 plugins:
   redactor:
