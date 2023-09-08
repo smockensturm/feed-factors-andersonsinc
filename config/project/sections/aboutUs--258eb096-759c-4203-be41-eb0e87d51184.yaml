@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: aboutUs
+name: 'About Us'
+propagationMethod: all
+siteSettings:
+  5295d6da-5ed9-4a07-9721-ff6c8cc061b2: # Feed Factors
+    enabledByDefault: true
+    hasUrls: true
+    template: about-us.twig
+    uriFormat: about-us
+type: single

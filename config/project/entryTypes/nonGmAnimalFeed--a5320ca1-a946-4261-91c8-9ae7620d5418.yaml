@@ -1,0 +1,46 @@
+fieldLayouts:
+  ef4131f3-9217-4382-8502-7f2edadb5f1f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f77dca37-1eac-4b7a-baa7-78ee3ce65cd2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: fdee7452-ba39-493f-a3be-ac77d8bc8e58
+        userCondition: null
+handle: nonGmAnimalFeed
+hasTitleField: false
+name: 'Non GM & Animal Feed'
+section: 5d06ebed-5a1c-465b-9ae0-bed5d9adfc6c # Non GM & Animal Feed
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

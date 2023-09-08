@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: contactUs
+name: 'Contact Us'
+propagationMethod: all
+siteSettings:
+  5295d6da-5ed9-4a07-9721-ff6c8cc061b2: # Feed Factors
+    enabledByDefault: true
+    hasUrls: true
+    template: contact-us.twig
+    uriFormat: contact-us
+type: single

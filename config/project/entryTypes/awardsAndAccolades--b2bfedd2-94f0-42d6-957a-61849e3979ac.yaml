@@ -1,0 +1,46 @@
+fieldLayouts:
+  f12db9ff-6205-40ad-bf85-c07f93ce611a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b938a56d-5666-40e5-aba1-5ab5966ea4f6
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2c728a8f-457c-42ad-9948-0ca8fc5a9e78
+        userCondition: null
+handle: awardsAndAccolades
+hasTitleField: false
+name: 'Awards and Accolades'
+section: 8bdd2fe3-231a-4800-9366-938ad4f55b17 # Awards and Accolades
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

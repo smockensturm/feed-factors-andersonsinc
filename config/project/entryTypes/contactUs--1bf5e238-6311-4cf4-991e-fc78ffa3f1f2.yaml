@@ -1,0 +1,46 @@
+fieldLayouts:
+  14466ade-3c1f-4154-93ee-6418a045dd07:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 80992ae2-396d-4d60-8bda-844c65ef1371
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: aee31a75-6eec-4e82-9f5e-694fd6787bad
+        userCondition: null
+handle: contactUs
+hasTitleField: false
+name: 'Contact Us'
+section: 045e1375-baca-43e0-bc7d-aafb3528b5df # Contact Us
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

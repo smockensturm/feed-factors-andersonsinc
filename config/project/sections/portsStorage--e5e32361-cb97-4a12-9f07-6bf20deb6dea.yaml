@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: portsStorage
+name: 'Ports & Storage'
+propagationMethod: all
+siteSettings:
+  5295d6da-5ed9-4a07-9721-ff6c8cc061b2: # Feed Factors
+    enabledByDefault: true
+    hasUrls: true
+    template: ports-storage.twig
+    uriFormat: ports-storage
+type: single

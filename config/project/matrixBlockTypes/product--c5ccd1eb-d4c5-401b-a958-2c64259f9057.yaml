@@ -59,24 +59,39 @@ fieldLayouts:
 fields:
   1c2d9731-7ee9-4411-be83-15a962a4f4a6: # Product Link
     columnSuffix: uwkknhqn
-    contentColumnType: text
+    contentColumnType: string
     fieldGroup: null
     handle: productLink
     instructions: null
     name: 'Product Link'
     searchable: false
     settings:
-      byteLimit: null
-      charLimit: null
-      code: false
-      columnType: null
-      initialRows: 4
-      multiline: false
-      placeholder: null
-      uiMode: normal
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: 'Select Destination'
+      showSiteMenu: true
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
     translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\PlainText
+    translationMethod: site
+    type: craft\fields\Entries
   77db26de-4493-41b3-92f3-cbe2f057c743: # Photo
     columnSuffix: null
     contentColumnType: string

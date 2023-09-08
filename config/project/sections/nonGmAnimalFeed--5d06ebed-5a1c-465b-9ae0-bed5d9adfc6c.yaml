@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: nonGmAnimalFeed
+name: 'Non GM & Animal Feed'
+propagationMethod: all
+siteSettings:
+  5295d6da-5ed9-4a07-9721-ff6c8cc061b2: # Feed Factors
+    enabledByDefault: true
+    hasUrls: true
+    template: non-gm-animal-feed.twig
+    uriFormat: non-gm-animal-feed
+type: single

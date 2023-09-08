@@ -1,0 +1,46 @@
+fieldLayouts:
+  0e0bed69-17b6-4349-b57c-7f056eb019ea:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: f619c718-7c76-436e-93ac-c395b0beb52b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9fc6cf10-93f5-48a9-abcc-6864ab4188b7
+        userCondition: null
+handle: portsStorage
+hasTitleField: false
+name: 'Ports & Storage'
+section: e5e32361-cb97-4a12-9f07-6bf20deb6dea # Ports & Storage
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

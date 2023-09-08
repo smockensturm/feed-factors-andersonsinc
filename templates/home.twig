@@ -16,6 +16,7 @@
 	<div class="grid grid-cols-3 gap-10 p-5 lg:px-20">
 		{% for product in entry.products.all() %}
 			{% set photo = product.photo.one() %}
+			{% set destination = product.productLink.one() %}
 			<div class="col-span-3 lg:col-span-1 justify-center items-center my-14">
 				<div>
 					<div class="relative">
@@ -31,7 +32,7 @@
 						<p class="mb-4 text-ff-grey ">
 							{{product.description}}
 						</p>
-						<a href="{{product.productLink}}" class="inline-block px-6 pb-2 pt-2.5 text-sm font-bold uppercase leading-normal transition duration-150 hover:bg-ff-btn-blue hover:text-ff-yellow ease-in-out border rounded-xl text-ff-grey">
+						<a href="{{destination.url}}" class="inline-block px-6 pb-2 pt-2.5 text-sm font-bold uppercase leading-normal transition duration-150 hover:bg-ff-btn-blue hover:text-ff-yellow ease-in-out border rounded-xl text-ff-grey">
 							more about
 							{{product.productTitle}}
 						</a>
