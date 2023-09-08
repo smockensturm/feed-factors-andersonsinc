@@ -12,8 +12,8 @@ module.exports = {
         "ff-grey": "#686868"
       },
       animation: {
-        marquee: 'marquee 25s linear infinite',
-        marquee2: 'marquee2 25s linear infinite',
+        marquee: 'marquee 35s linear infinite',
+        marquee2: 'marquee2 35s linear infinite',
       },
       keyframes: {
         marquee: {
