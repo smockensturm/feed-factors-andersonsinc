@@ -1,1 +1,34 @@
 {% extends "index" %}
+{% block content %}
+
+	{% set image = entry.heroImage.one() %}
+	<div class="hero 2xl:container 2xl:mx-auto bg-cover bg-center bg-no-repeat h-[38rem] w-full" style="background-image: url({{ image.getUrl('hero') }});"></div>
+	<div class="container mx-auto hero-content text-center text-neutral-content rounded-lg my-10">
+		<h1 class="p-5 text-slate-800 lg:p-10 text-2xl lg:text-5xl leading-normal font-bold uppercase">{{ entry.heroTitle }}</h1>
+		<h2 class="p-5 lg:text-3xl lg:w-3/4 mx-auto uppercase">{{ entry.subTitle }}</h2>
+	</div>
+
+	<hr class="my-12 h-1 border-t-0 bg-ff-blue container mx-auto"/>
+
+	<div class="p-5 lg:p-10 max-w-full prose lg:prose-xl">
+		<div class="container mx-auto">
+			{{entry.heroText}}
+		</div>
+	</div>
+
+	{% include "_contact-us-btn" %}
+
+	<div class="container mx-auto flex flex-wrap gap-10 lg:gap-0 justify-between items-center my-8 lg:my-16">
+		{% for otherProduct in entry.otherProducts.all() %}
+			{% set productImage = otherProduct.productImage.one() %}
+			{% set destination = otherProduct.productLink.one() %}
+			<div class="relative">
+				<img class="w-full h-full" src="{{ productImage.getUrl('otherProductImage') }}" alt="{{ otherProduct.otherProductTitle }}">
+				<a class="absolute bottom-8 whitespace-nowrap left-1/2 -translate-x-1/2 p-5 rounded-xl font-bold uppercase text-white bg-ff-yellow text-lg lg:text-2xl" href="{{ destination.url }}">{{ otherProduct.otherProductTitle }}</a>
+			</div>
+		{% endfor %}
+	</div>
+
+	{# MARQUEE #}
+	{% include "_accreditations" %}
+{% endblock %}

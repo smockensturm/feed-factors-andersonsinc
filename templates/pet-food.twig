@@ -18,7 +18,7 @@
 
 	{% include "_contact-us-btn" %}
 
-	<div class="container mx-auto flex justify-between items-center my-8 lg:my-16">
+	<div class="container mx-auto flex flex-wrap gap-10 lg:gap-0 justify-between items-center my-8 lg:my-16">
 		{% for otherProduct in entry.otherProducts.all() %}
 			{% set productImage = otherProduct.productImage.one() %}
 			{% set destination = otherProduct.productLink.one() %}
