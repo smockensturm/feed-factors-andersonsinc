@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 75a18fe5-2858-4f06-8040-225812b9b437 # Awards and Accolades
+handle: awards
+instructions: null
+name: Awards
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_awards}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

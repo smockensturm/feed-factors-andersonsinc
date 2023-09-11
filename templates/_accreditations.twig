@@ -10,7 +10,7 @@
 					{% for logo in accreditations.accreditationsLogos.all() %}
 						{% set acLogo = logo.logo.one() %}
 						<div class="w-44">
-							<img src="{{acLogo.getUrl('accreditationsLogos')}}" alt=""/>
+							<img src="{{acLogo.getUrl('accreditationsLogos')}}" alt="logo"/>
 						</div>
 					{% endfor %}
 				</div>
@@ -18,7 +18,7 @@
 					{% for logo in accreditations.accreditationsLogos.all() %}
 						{% set acLogo = logo.logo.one() %}
 						<div class="w-44">
-							<img src="{{acLogo.getUrl('accreditationsLogos')}}" alt=""/>
+							<img src="{{acLogo.getUrl('accreditationsLogos')}}" alt="logo"/>
 						</div>
 					{% endfor %}
 				</div>

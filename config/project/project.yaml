@@ -1,4 +1,4 @@
-dateModified: 1694435730
+dateModified: 1694443111
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -36,6 +36,7 @@ meta:
     49be7a3a-8951-44e7-a4af-72d91710d950: 'Product Links' # Product Links
     058c882e-bc37-46e8-9545-25abe74f2681: Accreditations # Accreditations
     74e10d5b-c339-4f01-b1db-ea8dec78ca50: Footer # Footer
+    75a18fe5-2858-4f06-8040-225812b9b437: 'Awards and Accolades' # Awards and Accolades
     77db26de-4493-41b3-92f3-cbe2f057c743: Photo # Photo
     85e835c3-278b-489b-93cb-6f2f07650688: 'Product Link' # Product Link
     258eb096-759c-4203-be41-eb0e87d51184: 'About Us' # About Us
@@ -44,6 +45,7 @@ meta:
     479c531d-3a02-41fc-bbee-40475cea9154: 'Link Title' # Link Title
     538e77bf-23bd-480e-80fa-e49b424ef3bb: 'Pet Food' # Pet Food
     554cf4a0-139a-46bd-beda-53682ebb6be9: Home # Home
+    742e54d8-47b1-4a15-8370-47fbe8660c25: 'Featured Award 1' # Featured Award 1
     826d2f1e-89e7-4d35-b602-014fd7478839: 'Link Text' # Link Text
     959c8c36-64ab-4b18-80e1-cec06be400a7: 'Hero Title' # Hero Title
     1512a705-46ac-4ba2-a263-7358b242643f: Email # Email
@@ -51,10 +53,12 @@ meta:
     6860d189-127f-47f4-b4db-78acd881d3a9: 'Featured Service Link' # Featured Service Link
     22126b6d-616f-42d8-ba41-0520f5bf5d9d: 'Footer Products' # Footer Products
     24360fbd-1079-46cb-b732-a78b69def1e0: 'Admin Number' # Admin Number
+    62832da1-ce05-4703-a31a-963835229fa2: 'Featured Award 2' # Featured Award 2
     69786f5c-16c1-4395-aafc-99b4168163b8: 'Accreditations Logos' # Accreditations Logos
     72743e88-3dd3-478e-83b3-747a3bb41bf1: 'Hero Image' # Hero Image
     38954585-cd2a-48ce-87e7-39f40bc4a4f6: Logo # Logo
     58799525-d9b5-4e70-ac6d-c343f77507a1: Organic # Organic
+    a59fc49e-c885-461f-a68a-1f695dd362f3: Award # Award
     a5320ca1-a946-4261-91c8-9ae7620d5418: 'Non GM & Animal Feed' # Non GM & Animal Feed
     aafd6af8-f545-4af5-826b-55a771ebb3c6: 'Footer Product' # Footer Product
     b2bfedd2-94f0-42d6-957a-61849e3979ac: 'Awards and Accolades' # Awards and Accolades
@@ -72,11 +76,14 @@ meta:
     caf451f4-15ae-419c-a071-8a83d525dbdb: 'Admin Email' # Admin Email
     cc104013-5f50-42dc-ae33-8936c27e3310: 'Featured Service Description' # Featured Service Description
     cd68ad67-aeec-41d5-83be-368e122a3542: 'Link Text' # Link Text
+    d1bbbf2d-54b0-4856-bf6e-2baa75df92e7: Awards # Awards
     d6b238cc-0b1f-4f87-bcaa-8de31aa4717a: Header # Header
     d57ed528-cda8-49f4-bfac-571fc62e4317: 'About Us' # About Us
     dfd55486-848c-47c3-b7f3-a06bfac39166: Header # Header
     e3da11a7-21f1-440d-90b8-dd8047d36901: 'Featured Service' # Featured Service
     e5e32361-cb97-4a12-9f07-6bf20deb6dea: 'Ports & Storage' # Ports & Storage
+    e25dfe5e-881d-4661-8587-967cc3f9504a: Award # Award
+    e54ec981-fe8b-427f-b328-10616332374a: 'Award Image' # Award Image
     e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
     ea83ceed-56f7-42ea-8eb5-eedd6ede404b: 'Trading Email' # Trading Email
     ec4a4386-ade3-42d7-8a23-e2b919627f86: Description # Description

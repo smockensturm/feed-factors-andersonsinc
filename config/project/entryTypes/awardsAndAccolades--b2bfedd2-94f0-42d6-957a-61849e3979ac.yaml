@@ -30,8 +30,86 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 72743e88-3dd3-478e-83b3-747a3bb41bf1 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a42b640f-e5fe-4fd7-9bc7-826926b524b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 959c8c36-64ab-4b18-80e1-cec06be400a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35fd241b-9204-4567-9393-c1750fe31746
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b750ab5a-460e-404f-9c02-0dd2773cf18c # Sub-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b0a3b354-38bb-4d80-8e5c-4668b3cb3c5c
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 2c728a8f-457c-42ad-9948-0ca8fc5a9e78
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 742e54d8-47b1-4a15-8370-47fbe8660c25 # Featured Award 1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 78c26656-3635-4132-b4fb-fc4249115ce8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 62832da1-ce05-4703-a31a-963835229fa2 # Featured Award 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 718a3bf6-00be-41fe-893f-8c9d0b799c5d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d1bbbf2d-54b0-4856-bf6e-2baa75df92e7 # Awards
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f9d08a78-6dac-4a17-941f-66f7bb9c4251
+            userCondition: null
+            warning: null
+            width: 100
+        name: Awards
+        uid: 49071ba6-7e39-464d-8879-aa2b10ea07ff
         userCondition: null
 handle: awardsAndAccolades
 hasTitleField: false
