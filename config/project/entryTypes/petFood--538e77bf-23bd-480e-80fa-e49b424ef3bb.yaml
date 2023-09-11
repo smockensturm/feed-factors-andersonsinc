@@ -30,6 +30,66 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 72743e88-3dd3-478e-83b3-747a3bb41bf1 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f3abb760-a16c-4f89-9bda-a9cd206d7b7e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 959c8c36-64ab-4b18-80e1-cec06be400a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25afd604-7e06-434e-92e6-06b67f34b781
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b750ab5a-460e-404f-9c02-0dd2773cf18c # Sub-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1bcd562-a898-4cc8-b1f2-126dff407c12
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 348e185d-b316-4ccb-999c-49445b886346 # Hero Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0fdaaff8-ca13-4ae8-998f-cbd5f035b64e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 62f35c23-97f2-4a5e-b4a3-d2b64ce080b7 # Other Products
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 84972928-1e38-4cbd-81cc-959ead118960
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 03844f9b-2a38-45c6-ae7c-eaf346fcdd97
         userCondition: null
