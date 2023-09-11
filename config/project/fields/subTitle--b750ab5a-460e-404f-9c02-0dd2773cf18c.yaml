@@ -1,0 +1,19 @@
+columnSuffix: bnugchce
+contentColumnType: text
+fieldGroup: 45b6a722-0451-438d-a395-e48fbd911ee9 # Common
+handle: subTitle
+instructions: null
+name: Sub-Title
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

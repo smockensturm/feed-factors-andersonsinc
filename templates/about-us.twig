@@ -1,1 +1,22 @@
 {% extends "index" %}
+{% block content %}
+
+	{% set image = entry.heroImage.one() %}
+	<div class="hero 2xl:container 2xl:mx-auto bg-cover bg-center bg-no-repeat h-[38rem] w-full" style="background-image: url({{ image.getUrl('hero') }});"></div>
+	<div class="container mx-auto hero-content text-center text-neutral-content rounded-lg my-10">
+		<h1 class="p-5 text-slate-800 lg:p-10 text-2xl lg:text-5xl leading-normal font-bold uppercase">{{ entry.heroTitle }}</h1>
+		<h2 class="p-5 lg:text-3xl lg:w-2/3 mx-auto">{{ entry.subTitle }}</h2>
+	</div>
+
+
+	<div class="p-5 lg:p-10 max-w-full prose lg:prose-xl">
+		<div class="container mx-auto">
+			{{entry.heroText}}
+		</div>
+	</div>
+
+	{% include "_contact-us-btn" %}
+
+	{# MARQUEE #}
+	{% include "_accreditations" %}
+{% endblock %}

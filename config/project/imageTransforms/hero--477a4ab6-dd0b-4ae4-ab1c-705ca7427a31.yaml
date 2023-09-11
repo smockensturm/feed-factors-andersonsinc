@@ -3,7 +3,7 @@ format: null
 handle: hero
 height: 600
 interlace: none
-mode: crop
+mode: fit
 name: Hero
 position: center-center
 quality: 100
