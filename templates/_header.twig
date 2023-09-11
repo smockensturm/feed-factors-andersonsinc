@@ -3,36 +3,38 @@
 	<nav
 		class="relative flex flex-nowrap items-center justify-between lg:flex-wrap lg:justify-start" data-te-navbar-ref>
 		{# TOP BAR #}
-		<div class="hidden lg:flex justify-between items-center w-full gap-10 bg-ff-blue text-white py-3 px-16">
-			<div class="divide-x flex items-center justify-center">
-				<div class="flex gap-3 px-5 text-xs justify-center items-center">
-					<i class="fa-solid fa-phone"></i>
-					{{header.phone}}
+		<div class="bg-ff-blue w-full">
+			<div class="container mx-auto hidden lg:flex justify-between items-center w-full gap-10 text-white py-3 px-16">
+				<div class="divide-x flex items-center justify-center">
+					<div class="flex gap-3 px-5 text-xs justify-center items-center">
+						<i class="fa-solid fa-phone"></i>
+						{{header.phone}}
+					</div>
+					<div class="flex gap-3 px-5 text-xs justify-center items-center">
+						<i class="fa-solid fa-envelope"></i>
+						{{header.email}}
+					</div>
 				</div>
-				<div class="flex gap-3 px-5 text-xs justify-center items-center">
-					<i class="fa-solid fa-envelope"></i>
-					{{header.email}}
+				<div class="divide-x flex items-center justify-center">
+					<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
+						Tax Strategy
+					</a>
+					<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
+						Human Rights
+					</a>
+					<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
+						Charity
+					</a>
+					<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
+						Sustainability
+					</a>
 				</div>
-			</div>
-			<div class="divide-x flex items-center justify-center">
-				<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
-					Tax Strategy
-				</a>
-				<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
-					Human Rights
-				</a>
-				<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
-					Charity
-				</a>
-				<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
-					Sustainability
-				</a>
 			</div>
 		</div>
 		{# NAV BAR #}
-		<div class="flex w-full flex-wrap items-center justify-between py-10 px-16">
+		<div class="container mx-auto flex w-full flex-wrap items-center justify-between py-10 px-16">
 			<div class="px-5">
-				<a href="{{ siteUrl }}"><img src="{{ siteUrl }}static/img/header/header-logo.svg" alt="{{ siteName }}"></a>
+				<a href="{{ siteUrl }}"><img src="{{ siteUrl }}static/img/header-logo.svg" alt="{{ siteName }}"></a>
 			</div>
 			<!-- Hamburger button for mobile view -->
 			<button
