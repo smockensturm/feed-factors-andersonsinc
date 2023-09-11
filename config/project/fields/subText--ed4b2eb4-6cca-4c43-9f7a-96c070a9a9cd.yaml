@@ -1,9 +1,9 @@
-columnSuffix: otsfuyqg
+columnSuffix: ruohsqjr
 contentColumnType: text
-fieldGroup: 058c882e-bc37-46e8-9545-25abe74f2681 # Accreditations
-handle: accreditationsText
+fieldGroup: 45b6a722-0451-438d-a395-e48fbd911ee9 # Common
+handle: subText
 instructions: null
-name: 'Accreditations Text'
+name: Sub-Text
 searchable: false
 settings:
   availableTransforms: ''

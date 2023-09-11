@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 45b6a722-0451-438d-a395-e48fbd911ee9 # Common
+handle: otherProducts
+instructions: null
+name: 'Other Products'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_otherproducts}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

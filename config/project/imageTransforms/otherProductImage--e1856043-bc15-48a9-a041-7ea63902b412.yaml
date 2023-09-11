@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: otherProductImage
+height: 320
+interlace: none
+mode: crop
+name: 'Other Product Image'
+position: center-center
+quality: 100
+upscale: true
+width: 540
