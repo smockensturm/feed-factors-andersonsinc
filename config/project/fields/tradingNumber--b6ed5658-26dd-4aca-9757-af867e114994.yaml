@@ -1,0 +1,19 @@
+columnSuffix: dyikgove
+contentColumnType: text
+fieldGroup: 74e10d5b-c339-4f01-b1db-ea8dec78ca50 # Footer
+handle: tradingNumber
+instructions: null
+name: 'Trading Number'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

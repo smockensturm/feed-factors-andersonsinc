@@ -1,0 +1,27 @@
+columnSuffix: mvnxsepf
+contentColumnType: text
+fieldGroup: 74e10d5b-c339-4f01-b1db-ea8dec78ca50 # Footer
+handle: footerAddress
+instructions: null
+name: 'Footer Address'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: ''
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: null
+  purifyHtml: true
+  redactorConfig: null
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

@@ -5,12 +5,16 @@
 				<div class="text-white flex flex-col gap-10 lg:gap-16">
 					<img src="{{ siteUrl }}static/img/footer-logo.svg" alt="logo" class="w-2/3">
 					<div>
-						<p>Trading Number: +44 (0) 208 332 1550</p>
-						<p>Trading Email: trading@feedfactors.com</p>
+						<p>Trading Number:
+							{{ footer.tradingNumber }}</p>
+						<p>Trading Email:
+							{{ footer.tradingEmail }}</p>
 					</div>
 					<div>
-						<p>Admin Number: +44 (0) 208 332 1992</p>
-						<p>Admin Email: admin@feedfactors.com</p>
+						<p>Admin Number:
+							{{ footer.adminNumber }}</p>
+						<p>Admin Email:
+							{{ footer.adminEmail }}</p>
 					</div>
 				</div>
 				<div
@@ -19,23 +23,23 @@
 					<div class="text-white flex flex-col gap-10">
 						<h6 class="text-ff-yellow uppercase text-2xl">products</h6>
 						<div class="flex flex-col">
-							<a href="">Organic</a>
-							<a href="">Pet Food</a>
-							<a href="">Non GM & Animal Feed</a>
-							<a href="">Ports and Storage</a>
+							{% for link in footer.footerProducts.all() %}
+								{% set destination = link.linkDestination.one() %}
+								<a href="{{ destination.url }}">{{ link.linkTitle }}</a>
+							{% endfor %}
 						</div>
 					</div>
 					{# CONTACT US #}
 					<div class="text-white flex flex-col gap-10">
 						<h6 class="text-ff-yellow uppercase text-2xl">contact us</h6>
-						<address>Feed Factors Ltd,
-							<br>
-							The Gallery, Whittaker Avenue
-							<br>
-							Richmond, TW9 1EH</address>
-						<div>
-							<p>Tel: +44 (0) 208 332 1550</p>
-							<p>Email: trading@feedfactors.com</p>
+						<address class="not-italic">
+							{{ footer.footerAddress }}
+						</address>
+						<div class="flex flex-col gap-10">
+							<p>Tel:
+								{{ footer.phone }}</p>
+							<p>Email:
+								{{ footer.email }}</p>
 						</div>
 					</div>
 				</div>
@@ -43,13 +47,13 @@
 		</div>
 		<div class="p-5 lg:py-8">
 			<div class="container mx-auto">
-				<div class="grid grid-cols-6 divide-x divide-black justify-between items-center text-center">
-					<a href="">Cookie Consent</a>
-					<a href="">Privacy</a>
-					<a href="">Terms of Use</a>
-					<a href="">Sustainability</a>
-					<a href="">Human Rights</a>
-					<a href="">Tax Strategy</a>
+				<div class="grid grid-cols-6 divide-x divide-black justify-between items-center text-center gap-5 lg:gap-0 text-sm lg:text-base">
+					<a href="" class="col-span-2 lg:col-span-1">Cookie Consent</a>
+					<a href="" class="col-span-2 lg:col-span-1">Privacy</a>
+					<a href="" class="col-span-2 lg:col-span-1">Terms of Use</a>
+					<a href="" class="col-span-2 lg:col-span-1">Sustainability</a>
+					<a href="" class="col-span-2 lg:col-span-1">Human Rights</a>
+					<a href="" class="col-span-2 lg:col-span-1">Tax Strategy</a>
 				</div>
 			</div>
 		</div>

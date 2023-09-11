@@ -1066,6 +1066,10 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .float-left {
   float: left;
 }
@@ -1704,6 +1708,10 @@ video {
   text-transform: uppercase;
 }
 
+.not-italic {
+  font-style: normal;
+}
+
 .leading-normal {
   line-height: 1.5;
 }
@@ -2250,6 +2258,10 @@ html {
     gap: 14rem;
   }
 
+  .lg\:gap-0 {
+    gap: 0px;
+  }
+
   .lg\:bg-gradient-to-r {
     background-image: linear-gradient(to right, var(--tw-gradient-stops));
   }
@@ -2367,6 +2379,11 @@ html {
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 

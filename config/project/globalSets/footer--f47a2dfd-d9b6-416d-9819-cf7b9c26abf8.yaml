@@ -1,0 +1,120 @@
+fieldLayouts:
+  82e93f23-f066-4a9d-8e54-153079c525f0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b6ed5658-26dd-4aca-9757-af867e114994 # Trading Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c5c5589-026a-4848-a9db-db82707f4f34
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea83ceed-56f7-42ea-8eb5-eedd6ede404b # Trading Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2c60409c-a829-4190-9109-323001279582
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 24360fbd-1079-46cb-b732-a78b69def1e0 # Admin Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8829107-09ac-4424-9ff4-f557ffd32bd2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: caf451f4-15ae-419c-a071-8a83d525dbdb # Admin Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b80f582-f796-4a10-8cbf-b104a75d5c63
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4148226a-2b54-4897-a6bf-703b07027d69
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 22126b6d-616f-42d8-ba41-0520f5bf5d9d # Footer Products
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a963d9e9-f16d-4bb7-958d-a0639f7301b1
+            userCondition: null
+            warning: null
+            width: 100
+        name: Products
+        uid: a6ddbdee-37ee-4183-bdb0-14b652c6074d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2c6b65cb-cc6b-41f3-bcf6-986aeb8caef3 # Footer Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3ed6ed60-dd83-44cb-bd39-10c5ff8c6550
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 3d349985-7a46-402b-88f3-ecad9ea175ca # Phone
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9b38678-f2f6-45d1-a4e8-947c0b0e7f4f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1512a705-46ac-4ba2-a263-7358b242643f # Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ed341ea0-b28b-49da-af36-51c552954879
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'Contact Us'
+        uid: b9609e48-0081-4b67-a45e-a3753b5ce806
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 3

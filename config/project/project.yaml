@@ -1,4 +1,4 @@
-dateModified: 1694178245
+dateModified: 1694425557
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -16,7 +16,9 @@ meta:
     0a372a17-7f19-44ae-a401-23ea3d202698: 'Pet Food' # Pet Food
     1bf5e238-6311-4cf4-991e-fc78ffa3f1f2: 'Contact Us' # Contact Us
     1c2d9731-7ee9-4411-be83-15a962a4f4a6: 'Product Link' # Product Link
+    2c6b65cb-cc6b-41f3-bcf6-986aeb8caef3: 'Footer Address' # Footer Address
     3d349985-7a46-402b-88f3-ecad9ea175ca: Phone # Phone
+    4ddc6646-e1a3-4415-bbbf-5b9a1eb83084: 'Link Destination' # Link Destination
     5d06ebed-5a1c-465b-9ae0-bed5d9adfc6c: 'Non GM & Animal Feed' # Non GM & Animal Feed
     6e5eb59d-53e4-41b2-8a4d-f55f440ce102: 'Link Destination' # Link Destination
     8bdd2fe3-231a-4800-9366-938ad4f55b17: 'Awards and Accolades' # Awards and Accolades
@@ -32,11 +34,13 @@ meta:
     48f73b93-d2e4-47e8-a341-c5535cf1e3d3: 'Nav Links' # Nav Links
     49be7a3a-8951-44e7-a4af-72d91710d950: 'Product Links' # Product Links
     058c882e-bc37-46e8-9545-25abe74f2681: Accreditations # Accreditations
+    74e10d5b-c339-4f01-b1db-ea8dec78ca50: Footer # Footer
     77db26de-4493-41b3-92f3-cbe2f057c743: Photo # Photo
     85e835c3-278b-489b-93cb-6f2f07650688: 'Product Link' # Product Link
     258eb096-759c-4203-be41-eb0e87d51184: 'About Us' # About Us
     348e185d-b316-4ccb-999c-49445b886346: 'Hero Text' # Hero Text
     477a4ab6-dd0b-4ae4-ab1c-705ca7427a31: Hero # Hero
+    479c531d-3a02-41fc-bbee-40475cea9154: 'Link Title' # Link Title
     538e77bf-23bd-480e-80fa-e49b424ef3bb: 'Pet Food' # Pet Food
     554cf4a0-139a-46bd-beda-53682ebb6be9: Home # Home
     826d2f1e-89e7-4d35-b602-014fd7478839: 'Link Text' # Link Text
@@ -44,13 +48,17 @@ meta:
     1512a705-46ac-4ba2-a263-7358b242643f: Email # Email
     5295d6da-5ed9-4a07-9721-ff6c8cc061b2: 'Feed Factors' # Feed Factors
     6860d189-127f-47f4-b4db-78acd881d3a9: 'Featured Service Link' # Featured Service Link
+    22126b6d-616f-42d8-ba41-0520f5bf5d9d: 'Footer Products' # Footer Products
+    24360fbd-1079-46cb-b732-a78b69def1e0: 'Admin Number' # Admin Number
     69786f5c-16c1-4395-aafc-99b4168163b8: 'Accreditations Logos' # Accreditations Logos
     72743e88-3dd3-478e-83b3-747a3bb41bf1: 'Hero Image' # Hero Image
     38954585-cd2a-48ce-87e7-39f40bc4a4f6: Logo # Logo
     58799525-d9b5-4e70-ac6d-c343f77507a1: Organic # Organic
     a5320ca1-a946-4261-91c8-9ae7620d5418: 'Non GM & Animal Feed' # Non GM & Animal Feed
+    aafd6af8-f545-4af5-826b-55a771ebb3c6: 'Footer Product' # Footer Product
     b2bfedd2-94f0-42d6-957a-61849e3979ac: 'Awards and Accolades' # Awards and Accolades
     b5be2983-4df9-4ff7-82ee-6d496fc7b647: Home # Home
+    b6ed5658-26dd-4aca-9757-af867e114994: 'Trading Number' # Trading Number
     b8a881c8-6719-43ae-a610-5a8990bbbd66: 'Product Title' # Product Title
     b281cb53-4bf7-4965-bdf0-952d9479431b: 'Accreditations Text' # Accreditations Text
     b7459c22-a422-4e46-960c-a10209e26641: Description # Description
@@ -59,6 +67,7 @@ meta:
     c5ccd1eb-d4c5-401b-a958-2c64259f9057: Product # Product
     c9645a14-4d5e-4c62-9d67-baf0e20668d6: 'Product Card Image' # Product Card Image
     c33509c8-d402-4a59-a44e-ca5826d54f07: Organic # Organic
+    caf451f4-15ae-419c-a071-8a83d525dbdb: 'Admin Email' # Admin Email
     cc104013-5f50-42dc-ae33-8936c27e3310: 'Featured Service Description' # Featured Service Description
     cd68ad67-aeec-41d5-83be-368e122a3542: 'Link Text' # Link Text
     d6b238cc-0b1f-4f87-bcaa-8de31aa4717a: Header # Header
@@ -67,8 +76,10 @@ meta:
     e3da11a7-21f1-440d-90b8-dd8047d36901: 'Featured Service' # Featured Service
     e5e32361-cb97-4a12-9f07-6bf20deb6dea: 'Ports & Storage' # Ports & Storage
     e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
+    ea83ceed-56f7-42ea-8eb5-eedd6ede404b: 'Trading Email' # Trading Email
     ec4a4386-ade3-42d7-8a23-e2b919627f86: Description # Description
     edfe699f-1037-41d4-9b66-5fc0b25010d9: 'Accreditations Title' # Accreditations Title
+    f47a2dfd-d9b6-416d-9819-cf7b9c26abf8: Footer # Footer
     f36729a9-f758-413f-90f2-5fee91209ce4: 'Accreditations Logos' # Accreditations Logos
     fb9844f8-ed04-4183-9774-aed148fe9ca9: 'Featured Service Title' # Featured Service Title
 plugins:

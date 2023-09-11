@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 74e10d5b-c339-4f01-b1db-ea8dec78ca50 # Footer
+handle: footerProducts
+instructions: null
+name: 'Footer Products'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_footerproducts}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
