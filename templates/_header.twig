@@ -1,10 +1,10 @@
 {% block header %}
 	<!-- Main navigation container -->
 	<nav
-		class="relative flex flex-nowrap items-center justify-between lg:flex-wrap lg:justify-start" data-te-navbar-ref>
+		class="relative w-full flex flex-nowrap items-center justify-between lg:flex-wrap lg:justify-start" data-te-navbar-ref>
 		{# TOP BAR #}
-		<div class="bg-ff-blue w-full">
-			<div class="container mx-auto hidden lg:flex justify-between items-center w-full gap-10 text-white py-3 px-16">
+		<div class="bg-ff-blue hidden lg:flex w-full">
+			<div class="container mx-auto hidden lg:flex justify-between items-center w-full gap-10 text-white py-3">
 				<div class="divide-x flex items-center justify-center">
 					<div class="flex gap-3 px-5 text-xs justify-center items-center">
 						<i class="fa-solid fa-phone"></i>
@@ -32,8 +32,8 @@
 			</div>
 		</div>
 		{# NAV BAR #}
-		<div class="container mx-auto flex w-full flex-wrap items-center justify-between py-10 px-16">
-			<div class="px-5">
+		<div class="container mx-auto flex w-full flex-wrap items-center justify-between p-5 lg:py-10">
+			<div>
 				<a href="{{ siteUrl }}"><img src="{{ siteUrl }}static/img/header-logo.svg" alt="{{ siteName }}"></a>
 			</div>
 			<!-- Hamburger button for mobile view -->
