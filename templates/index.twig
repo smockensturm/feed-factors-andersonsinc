@@ -1,9 +1,12 @@
+{% set pageTitle = pageTitle|default('Home') ~ " | " ~ siteName %}
+{% set pageDescription = pageDescription|default('Feed Factors Limited is the leading importer of organic grains, oilseeds, and pulses in the UK.') %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<title>Feed Factors</title>
+		<title>{{ pageTitle }}</title>
+		<meta name="description" content="{{ pageDescription }}">
 		<link href="{{ siteUrl }}static/main.css" rel="stylesheet">
 		<link href="{{ siteUrl }}dist/output.css" rel="stylesheet"/>
 	</head>

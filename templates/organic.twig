@@ -1,4 +1,6 @@
 {% extends "index" %}
+{% set pageTitle = entry.heroTitle %}
+{% set pageDescription = entry.subTitle %}
 {% block content %}
 
 	{% set image = entry.heroImage.one() %}
