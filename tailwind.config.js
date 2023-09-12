@@ -9,7 +9,8 @@ module.exports = {
         "ff-blue": "#011A48",
         "ff-btn-blue": "#2B367A",
         "ff-yellow": "#DFC99F",
-        "ff-grey": "#686868"
+        "ff-grey": "#686868",
+        "ff-grey-2": "#F8F8F8"
       },
       animation: {
         marquee: 'marquee 35s linear infinite',

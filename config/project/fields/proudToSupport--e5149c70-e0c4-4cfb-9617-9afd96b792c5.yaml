@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e341b8b1-7331-4808-b48f-0cb355776a28 # Charity
+handle: proudToSupport
+instructions: null
+name: 'Proud to Support'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_proudtosupport}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

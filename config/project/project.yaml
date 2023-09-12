@@ -1,4 +1,4 @@
-dateModified: 1694508256
+dateModified: 1694522952
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -18,6 +18,7 @@ meta:
     1bf5e238-6311-4cf4-991e-fc78ffa3f1f2: 'Contact Us' # Contact Us
     1c2d9731-7ee9-4411-be83-15a962a4f4a6: 'Product Link' # Product Link
     2c6b65cb-cc6b-41f3-bcf6-986aeb8caef3: 'Footer Address' # Footer Address
+    03b93726-b2d1-4796-a792-bb018615732d: 'Charity Logo' # Charity Logo
     3d349985-7a46-402b-88f3-ecad9ea175ca: Phone # Phone
     4ddc6646-e1a3-4415-bbbf-5b9a1eb83084: 'Link Destination' # Link Destination
     5d06ebed-5a1c-465b-9ae0-bed5d9adfc6c: 'Non GM & Animal Feed' # Non GM & Animal Feed
@@ -42,8 +43,10 @@ meta:
     75a18fe5-2858-4f06-8040-225812b9b437: 'Awards and Accolades' # Awards and Accolades
     77db26de-4493-41b3-92f3-cbe2f057c743: Photo # Photo
     85e835c3-278b-489b-93cb-6f2f07650688: 'Product Link' # Product Link
+    95e93eb3-d5b5-48ba-abd8-e51c0035901e: Charity # Charity
     258eb096-759c-4203-be41-eb0e87d51184: 'About Us' # About Us
     348e185d-b316-4ccb-999c-49445b886346: 'Hero Text' # Hero Text
+    416a16ed-cfec-4bdd-bef0-4ead909ed028: Charity # Charity
     477a4ab6-dd0b-4ae4-ab1c-705ca7427a31: Hero # Hero
     479c531d-3a02-41fc-bbee-40475cea9154: 'Link Title' # Link Title
     538e77bf-23bd-480e-80fa-e49b424ef3bb: 'Pet Food' # Pet Food
@@ -52,6 +55,7 @@ meta:
     826d2f1e-89e7-4d35-b602-014fd7478839: 'Link Text' # Link Text
     959c8c36-64ab-4b18-80e1-cec06be400a7: 'Hero Title' # Hero Title
     1512a705-46ac-4ba2-a263-7358b242643f: Email # Email
+    3048f6f3-e39b-4d79-9cd8-d4489d2a0607: 'Charity Name' # Charity Name
     5295d6da-5ed9-4a07-9721-ff6c8cc061b2: 'Feed Factors' # Feed Factors
     6860d189-127f-47f4-b4db-78acd881d3a9: 'Featured Service Link' # Featured Service Link
     22126b6d-616f-42d8-ba41-0520f5bf5d9d: 'Footer Products' # Footer Products
@@ -70,6 +74,7 @@ meta:
     b5be2983-4df9-4ff7-82ee-6d496fc7b647: Home # Home
     b6ed5658-26dd-4aca-9757-af867e114994: 'Trading Number' # Trading Number
     b8a881c8-6719-43ae-a610-5a8990bbbd66: 'Product Title' # Product Title
+    b31dbf5b-2084-4648-8643-1af68bf03aef: Charity # Charity
     b281cb53-4bf7-4965-bdf0-952d9479431b: 'Accreditations Text' # Accreditations Text
     b750ab5a-460e-404f-9c02-0dd2773cf18c: Sub-Title # Sub-Title
     b882f00b-ca26-4e14-8cca-809a176848c8: Sustainability # Sustainability
@@ -79,6 +84,7 @@ meta:
     c5ccd1eb-d4c5-401b-a958-2c64259f9057: Product # Product
     c9645a14-4d5e-4c62-9d67-baf0e20668d6: 'Product Card Image' # Product Card Image
     c33509c8-d402-4a59-a44e-ca5826d54f07: Organic # Organic
+    c1559430-0156-4cee-a03a-62d268d3f13c: 'Charity Text' # Charity Text
     caf451f4-15ae-419c-a071-8a83d525dbdb: 'Admin Email' # Admin Email
     cc104013-5f50-42dc-ae33-8936c27e3310: 'Featured Service Description' # Featured Service Description
     cd68ad67-aeec-41d5-83be-368e122a3542: 'Link Text' # Link Text
@@ -87,11 +93,14 @@ meta:
     d57ed528-cda8-49f4-bfac-571fc62e4317: 'About Us' # About Us
     d3260e1a-ff23-46a1-a407-5400aa71f05c: 'Other Product' # Other Product
     dfd55486-848c-47c3-b7f3-a06bfac39166: Header # Header
+    e0786060-d7cc-4bd7-bb27-a9b0fa4b4f5e: 'Charity Logo' # Charity Logo
     e3da11a7-21f1-440d-90b8-dd8047d36901: 'Featured Service' # Featured Service
     e5e32361-cb97-4a12-9f07-6bf20deb6dea: 'Ports & Storage' # Ports & Storage
     e25dfe5e-881d-4661-8587-967cc3f9504a: Award # Award
     e31a8132-1a54-495c-b2ae-dd014ceb5312: 'Other Product Title' # Other Product Title
     e54ec981-fe8b-427f-b328-10616332374a: 'Award Image' # Award Image
+    e341b8b1-7331-4808-b48f-0cb355776a28: Charity # Charity
+    e5149c70-e0c4-4cfb-9617-9afd96b792c5: 'Proud to Support' # Proud to Support
     e76438ef-4ed0-454e-8c51-99d377b2e4bf: 'Feed Factors' # Feed Factors
     e1856043-bc15-48a9-a041-7ea63902b412: 'Other Product Image' # Other Product Image
     ea83ceed-56f7-42ea-8eb5-eedd6ede404b: 'Trading Email' # Trading Email

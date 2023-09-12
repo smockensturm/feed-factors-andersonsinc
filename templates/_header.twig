@@ -1,11 +1,11 @@
 {% block header %}
 	<!-- Main navigation container -->
 	<nav
-		class="relative w-full flex flex-nowrap items-center justify-between lg:flex-wrap lg:justify-start" data-te-navbar-ref>
+		class="relative w-full flex flex-wrap items-center justify-between lg:justify-start" data-te-navbar-ref>
 		{# TOP BAR #}
-		<div class="bg-ff-blue hidden lg:flex w-full">
-			<div class="container mx-auto hidden lg:flex justify-between items-center w-full gap-10 text-white py-3">
-				<div class="divide-x flex items-center justify-center">
+		<div class="bg-ff-blue flex w-full">
+			<div class="container mx-auto lg:flex justify-between items-center w-full gap-10 text-white py-3">
+				<div class="divide-x flex items-center justify-center my-3 lg:my-0">
 					<div class="flex gap-3 px-5 text-xs justify-center items-center">
 						<i class="fa-solid fa-phone"></i>
 						{{header.phone}}
@@ -15,14 +15,14 @@
 						{{header.email}}
 					</div>
 				</div>
-				<div class="divide-x flex items-center justify-center">
+				<div class="divide-x flex items-center justify-center my-3 lg:my-0">
 					<a href="{{ siteUrl }}static/pdf/tax-strategy.pdf" target="_blank" class="flex gap-3 px-5 text-xs justify-center items-center">
 						Tax Strategy
 					</a>
 					<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
 						Human Rights
 					</a>
-					<a href="/" class="flex gap-3 px-5 text-xs justify-center items-center">
+					<a href="{{ siteUrl }}charity" class="flex gap-3 px-5 text-xs justify-center items-center">
 						Charity
 					</a>
 					<a href="{{ siteUrl }}sustainability" class="flex gap-3 px-5 text-xs justify-center items-center">

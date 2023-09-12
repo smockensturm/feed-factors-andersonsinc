@@ -1,0 +1,94 @@
+fieldLayouts:
+  b5dc4167-0e28-46d2-ac74-80675c485a78:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 0417bbc2-b31c-4d26-83d7-a3b9ee5d9ef9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 72743e88-3dd3-478e-83b3-747a3bb41bf1 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e1ec013e-fc3c-467d-8270-028f474e86df
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 348e185d-b316-4ccb-999c-49445b886346 # Hero Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 75e46e16-210a-470e-8b13-1b3b49dc33c1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b750ab5a-460e-404f-9c02-0dd2773cf18c # Sub-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f3b01d3-7405-422a-8979-15b1d599d091
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e5149c70-e0c4-4cfb-9617-9afd96b792c5 # Proud to Support
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 763f1411-b14f-467f-a255-f7edee2130a5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 346d8808-ddb1-47a0-a719-c1c3e0dee501
+        userCondition: null
+handle: charity
+hasTitleField: false
+name: Charity
+section: 95e93eb3-d5b5-48ba-abd8-e51c0035901e # Charity
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
