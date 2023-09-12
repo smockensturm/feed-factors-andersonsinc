@@ -1,0 +1,16 @@
+{% extends "index" %}
+{% block content %}
+
+	<div class="p-5 lg:p-10 max-w-full prose lg:prose-xl">
+		<div class="container mx-auto">
+			<h1>{{entry.heroText}}</h1>
+		</div>
+	</div>
+
+	<hr
+	class="my-12 h-1 border-t-0 bg-ff-blue container mx-auto"/>
+
+	{# MARQUEE #}
+	{% include "_accreditations" %}
+
+{% endblock %}
