@@ -1,0 +1,118 @@
+fieldLayouts:
+  18852aa6-394c-402d-ba91-1ab3e0bdfb9d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 44860612-849d-4817-a10c-bbaff7fc614a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 72743e88-3dd3-478e-83b3-747a3bb41bf1 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a906014d-de25-4ac3-a357-48b32f727561
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 959c8c36-64ab-4b18-80e1-cec06be400a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81ebcdce-a9f4-4358-88e9-7afbfbd06834
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b750ab5a-460e-404f-9c02-0dd2773cf18c # Sub-Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3161c9a2-6d80-4a58-a238-047e4938ae4d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ed4b2eb4-6cca-4c43-9f7a-96c070a9a9cd # Sub-Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 13efc168-fd96-4169-971e-9c3d3656ba68
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9beb320e-55ff-4276-8d64-7bfbe81ffa88 # Sub-Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5466531-9c1c-4ed2-b8a9-3e5607d38f5c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 348e185d-b316-4ccb-999c-49445b886346 # Hero Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 78ac2a45-0a71-4aaf-8e9b-9338a7cadd50
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bd0b5b00-7609-4bce-8494-b4f1b7875223
+        userCondition: null
+handle: sustainability
+hasTitleField: false
+name: Sustainability
+section: b1c3981a-f041-479e-89c1-edb70ca7549b # Sustainability
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

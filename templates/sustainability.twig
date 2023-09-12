@@ -1,0 +1,42 @@
+{% extends "index" %}
+{% block content %}
+
+	{% set image = entry.heroImage.one() %}
+	<div class="hero 2xl:container 2xl:mx-auto bg-cover bg-center bg-no-repeat h-[38rem] w-full" style="background-image: url({{ image.getUrl('hero') }});"></div>
+	<div class="container mx-auto hero-content text-center text-neutral-content rounded-lg my-10">
+		<h1 class="p-5 text-slate-800 lg:p-10 text-2xl lg:text-5xl leading-normal font-bold uppercase">{{ entry.heroTitle }}</h1>
+		<h2 class="p-5 lg:text-3xl lg:w-3/4 mx-auto uppercase">{{ entry.subTitle }}</h2>
+	</div>
+
+	<hr class="my-12 h-1 border-t-0 bg-ff-blue container mx-auto"/>
+
+
+	<div class="p-5 lg:p-10 max-w-full prose lg:prose-xl">
+		<div class="container mx-auto">
+			{{entry.subText}}
+		</div>
+	</div>
+
+	{# BUTTON #}
+	<div class="container mx-auto flex justify-center items-center py-5 my-10">
+		<hr class="my-12 h-1 border-t-0 bg-ff-blue w-full mx-auto"/>
+		<a href="{{ siteUrl }}static/pdf/sustainability-statement.pdf" target="_blank" class="p-5 lg:py-8 lg:px-10 lg:mx-16 rounded-xl font-bold text-lg lg:text-2xl bg-ff-btn-blue text-ff-yellow uppercase whitespace-nowrap">read our sustainability statement</a>
+		<hr class="my-12 h-1 border-t-0 bg-ff-blue w-full mx-auto"/>
+	</div>
+
+
+	{# HERO TEXT & IMG #}
+	<div class="container mx-auto p-5 lg:p-0 grid grid-cols-2 justify-center items-center">
+		<div class="col-span-2 lg:col-span-1 order-last lg:order-none prose lg:prose-xl">
+			<p class="">{{ entry.heroText }}</p>
+		</div>
+		<div class="col-span-2 lg:col-span-1 flex justify-end items-center">
+			{% set subImage = entry.subImage.one() %}
+			<img src="{{ subImage.getUrl('subImage') }}" alt="content image">
+		</div>
+	</div>
+	{% include "_contact-us-btn" %}
+
+	{# MARQUEE #}
+	{% include "_accreditations" %}
+{% endblock %}
