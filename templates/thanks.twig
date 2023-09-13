@@ -1,0 +1,19 @@
+{% extends "index" %}
+{% set pageTitle = entry.heroTitle %}
+{% block content %}
+
+	{% set image = entry.heroImage.one() %}
+	<div class="hero 2xl:container 2xl:mx-auto bg-cover bg-center bg-no-repeat h-[38rem] w-full" style="background-image: url({{ image.getUrl('hero') }});"></div>
+	<div class="container mx-auto hero-content text-neutral-content rounded-lg my-10">
+		<h1 class="p-5 lg:p-0 lg:py-10 text-slate-800  text-2xl lg:text-5xl leading-normal font-bold uppercase">{{ entry.heroTitle }}</h1>
+	</div>
+
+	<div class="flex justify-center items-center p-10 bg-green-200 my-20 text-center">
+		<h2 class="text-3xl font-bold text center uppercase">Message sent successfully!</h2>
+	</div>
+
+	<hr class="my-12 h-1 border-t-0 bg-ff-blue container mx-auto"/>
+
+	{% include "_accreditations" %}
+
+{% endblock %}

@@ -30,6 +30,90 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 72743e88-3dd3-478e-83b3-747a3bb41bf1 # Hero Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 58d3db94-6e33-48b6-922b-d822fd254174
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 959c8c36-64ab-4b18-80e1-cec06be400a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29ebbfbe-b246-43ab-a0dd-14dcbe896266
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 2c6b65cb-cc6b-41f3-bcf6-986aeb8caef3 # Footer Address
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 48c8ce9b-57aa-4018-8023-36c779b733db
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b6ed5658-26dd-4aca-9757-af867e114994 # Trading Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8606aef6-ad39-4f72-8eb2-65c9a7564e9b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 24360fbd-1079-46cb-b732-a78b69def1e0 # Admin Number
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77de5855-f663-4f37-91d2-f16591811dfb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea83ceed-56f7-42ea-8eb5-eedd6ede404b # Trading Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 590c4330-96fc-4d19-9b69-c27239aad497
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: caf451f4-15ae-419c-a071-8a83d525dbdb # Admin Email
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8db656bc-69be-4743-8b1b-b6257182d47c
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: aee31a75-6eec-4e82-9f5e-694fd6787bad
         userCondition: null

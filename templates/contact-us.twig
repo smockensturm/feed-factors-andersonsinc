@@ -1,2 +1,86 @@
 {% extends "index" %}
 {% set pageTitle = entry.heroTitle %}
+{% macro errorList(errors) %}
+	{% if errors %}
+		<ul class="errors">
+			{% for error in errors %}
+				<li>{{ error }}</li>
+			{% endfor %}
+		</ul>
+	{% endif %}
+{% endmacro %}
+{% block content %}
+
+	{% set image = entry.heroImage.one() %}
+	<div class="hero 2xl:container 2xl:mx-auto bg-cover bg-center bg-no-repeat h-[38rem] w-full" style="background-image: url({{ image.getUrl('hero') }});"></div>
+	<div class="container mx-auto hero-content text-neutral-content rounded-lg my-10">
+		<h1 class="p-5 lg:p-0 lg:py-10 text-slate-800  text-2xl lg:text-5xl leading-normal font-bold uppercase">{{ entry.heroTitle }}</h1>
+	</div>
+
+	{# PAGE CONTENT #}
+	<div class="container mx-auto p-5 lg:p-0 grid grid-cols-2 gap-10 lg:gap-28 lg:my-16">
+
+		<div class="flex flex-col gap-10 col-span-2 lg:col-span-1">
+			<address class="not-italic">{{ entry.footerAddress }}</address>
+			<p class="font-semibold">
+				Tel:
+				<span class="underline font-normal">{{ entry.tradingNumber }}</span>
+			</p>
+			<p class="font-semibold">
+				Admin Tel:
+				<span class="underline font-normal">{{ entry.adminNumber }}</span>
+			</p>
+			<p class="font-semibold">
+				Email:
+				<span class="font-normal">{{ entry.tradingEmail }}</span>
+			</p>
+			<p class="font-semibold">
+				Admin Email:
+				<span class="font-normal">{{ entry.adminEmail }}</span>
+			</p>
+
+			<iframe class="w-96 h-80" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2485.9562704781906!2d-0.3101926239810118!3d51.45895931424175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760c476d380983%3A0x3e19e37992845397!2sThe%20Gallery!5e0!3m2!1sen!2str!4v1694610427375!5m2!1sen!2str" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+
+		{% from _self import errorList %}
+
+		{{ wheelformErrors['form'] is defined ? errorList(wheelformErrors['form']) }}
+
+		<form class="flex flex-col gap-10 col-span-2 lg:col-span-1 order-first lg:order-none" method="post" action="" accept-charset="UTF-8" novalidate="" enctype="multipart/form-data">
+			{{ csrfInput() }}
+			<input type="hidden" name="action" value="wheelform/message/send">
+			<input type="hidden" name="form_id" value="1">
+			<input type="hidden" name="redirect" value="{{ 'thanks'|hash }}">
+
+			<div>
+				<h3>
+					<label class="hidden" for="from-name">Name</label>
+				</h3>
+				<input class="bg-ff-grey-2 p-5 w-full" placeholder="Name" id="from-name" type="text" name="name" value="{{ values['name'] ?? '' }}">
+				{{ wheelformErrors['name'] is defined ? errorList(wheelformErrors['name']) }}
+			</div>
+
+			<div>
+				<h3>
+					<label class="hidden" for="from-email">Email</label>
+				</h3>
+				<input class="bg-ff-grey-2 p-5 w-full" placeholder="Email" id="from-email" type="email" name="email" value="{{ values['email'] ?? '' }}">
+				{{ wheelformErrors['email'] is defined ? errorList(wheelformErrors['email']) }}
+			</div>
+
+			<div>
+				<h3>
+					<label class="hidden" for="message">Message</label>
+				</h3>
+				<textarea class="bg-ff-grey-2 p-5 w-full" placeholder="Message" rows="10" cols="40" id="message" name="message">{{ values['message'] ?? '' }}</textarea>
+				{{ wheelformErrors['message'] is defined ? errorList(wheelformErrors['message']) }}
+			</div>
+
+			<input class="cursor-pointer w-fit self-end px-8 py-4 rounded-xl font-bold text-lg lg:text-xl bg-ff-btn-blue text-ff-yellow uppercase" type="submit" value="submit">
+		</form>
+	</div>
+
+	<hr class="my-12 h-1 border-t-0 bg-ff-blue container mx-auto"/>
+
+	{% include "_accreditations" %}
+</div>{% endblock %}

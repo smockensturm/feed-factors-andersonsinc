@@ -1,4 +1,4 @@
-dateModified: 1694524632
+dateModified: 1694609259
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -17,9 +17,11 @@ meta:
     0bb27833-084b-462a-b804-3dd8ee588b44: 'Product Link' # Product Link
     1bf5e238-6311-4cf4-991e-fc78ffa3f1f2: 'Contact Us' # Contact Us
     1c2d9731-7ee9-4411-be83-15a962a4f4a6: 'Product Link' # Product Link
+    1ed059c1-ed1f-4a72-a56e-63058d7c494a: Thanks # Thanks
     2c6b65cb-cc6b-41f3-bcf6-986aeb8caef3: 'Footer Address' # Footer Address
     03b93726-b2d1-4796-a792-bb018615732d: 'Charity Logo' # Charity Logo
     3d349985-7a46-402b-88f3-ecad9ea175ca: Phone # Phone
+    4a04ccd3-e560-4e96-b5ef-37e11d3f5029: Thanks # Thanks
     4ddc6646-e1a3-4415-bbbf-5b9a1eb83084: 'Link Destination' # Link Destination
     5d06ebed-5a1c-465b-9ae0-bed5d9adfc6c: 'Non GM & Animal Feed' # Non GM & Animal Feed
     6d5516e9-90ee-4eba-8657-8f9170d0e785: 'About Us Page' # About Us Page
@@ -118,6 +120,21 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  wheelform:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      cp_label: Forms
+      disabled_fields: ''
+      from_email: aslan@stone2stone.co.uk
+      from_name: ''
+      recaptcha_min_score: '0.5'
+      recaptcha_public: ''
+      recaptcha_secret: ''
+      recaptcha_version: '2'
+      success_message: 'Thank You! We have received your message.'
+      volume_id: ''
 system:
   edition: solo
   live: true
