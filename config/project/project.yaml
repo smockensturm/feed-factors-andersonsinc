@@ -1,4 +1,4 @@
-dateModified: 1694609259
+dateModified: 1694679752
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -116,6 +116,10 @@ meta:
     fb9844f8-ed04-4183-9774-aed148fe9ca9: 'Featured Service Title' # Featured Service Title
     fe4a5cf8-bd56-44b3-a132-48f10b020a11: Sub-Image # Sub-Image
 plugins:
+  cookie-consent-banner:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
   redactor:
     edition: standard
     enabled: true

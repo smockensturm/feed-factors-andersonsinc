@@ -1,6 +1,8 @@
 {% extends "index" %}
 {% block content %}
 
+	{{ craft.cookieConsentBanner.addBanner() }}
+
 	{% set image = entry.heroImage.one() %}
 	<div class="hero 2xl:container 2xl:mx-auto bg-cover bg-center bg-no-repeat h-[38rem] w-full" style="background-image: url({{ image.getUrl('hero') }});"></div>
 	<div class="container mx-auto hero-content text-center text-neutral-content rounded-lg ">
