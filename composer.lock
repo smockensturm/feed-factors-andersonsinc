@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "acc4e8b33bf880c842dd1ded10d3a648",
+    "content-hash": "f4ca73bcb95b99ecf7b637296d7872fe",
     "packages": [
         {
             "name": "adigital/cookie-consent-banner",
@@ -239,11 +239,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.6.2",
+            "version": "2.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/composer.git",
+                "reference": "ff477832e6d838a736556d4a39a3b80f4412abfd"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/623e5e1de055e65bc6c3c61b8348dc4662d75e2b",
-                "reference": "623e5e1de055e65bc6c3c61b8348dc4662d75e2b",
+                "url": "https://api.github.com/repos/composer/composer/zipball/ff477832e6d838a736556d4a39a3b80f4412abfd",
+                "reference": "ff477832e6d838a736556d4a39a3b80f4412abfd",
                 "shasum": ""
             },
             "require": {
@@ -269,6 +274,14 @@
                 "symfony/polyfill-php81": "^1.24",
                 "symfony/process": "^5.4 || ^6.0 || ^7"
             },
+            "require-dev": {
+                "phpstan/phpstan": "^1.9.3",
+                "phpstan/phpstan-deprecation-rules": "^1",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpstan/phpstan-strict-rules": "^1",
+                "phpstan/phpstan-symfony": "^1.2.10",
+                "symfony/phpunit-bridge": "^6.0 || ^7"
+            },
             "suggest": {
                 "ext-openssl": "Enabling the openssl extension allows you to access https URLs for repositories and packages",
                 "ext-zip": "Enabling the zip extension allows you to unzip archives",
@@ -293,6 +306,7 @@
                     "Composer\\": "src/Composer/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -315,7 +329,27 @@
                 "dependency",
                 "package"
             ],
-            "time": "2023-09-03T12:09:15+00:00"
+            "support": {
+                "irc": "ircs://irc.libera.chat:6697/composer",
+                "issues": "https://github.com/composer/composer/issues",
+                "security": "https://github.com/composer/composer/security/policy",
+                "source": "https://github.com/composer/composer/tree/2.6.3"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2023-09-15T07:38:22+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -540,11 +574,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.5.4",
+            "version": "4.5.5",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/bf4756f4079d883852ce50343e4d9668558dfb1c",
-                "reference": "bf4756f4079d883852ce50343e4d9668558dfb1c",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/906e011df5c248174770050ee598f620005f6623",
+                "reference": "906e011df5c248174770050ee598f620005f6623",
                 "shasum": ""
             },
             "require": {
@@ -632,7 +666,7 @@
                 "docs": "https://craftcms.com/docs/4.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2023-09-12T18:48:25+00:00"
+            "time": "2023-09-15T04:55:07+00:00"
         },
         {
             "name": "craftcms/html-field",
@@ -4695,11 +4729,11 @@
         },
         {
             "name": "xpertbot/craft-wheelform",
-            "version": "3.1.5",
+            "version": "3.1.7",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/xpertbot/craft-wheelform/zipball/b7b9ed5eb384d7925740ee02b80d9e8037c77289",
-                "reference": "b7b9ed5eb384d7925740ee02b80d9e8037c77289",
+                "url": "https://api.github.com/repos/xpertbot/craft-wheelform/zipball/984f1cf72d07b077201bb0bf182267aad9c1fe5f",
+                "reference": "984f1cf72d07b077201bb0bf182267aad9c1fe5f",
                 "shasum": ""
             },
             "require": {
@@ -4743,7 +4777,7 @@
                 "docs": "https://github.com/xpertbot/craft-wheelform/blob/master/README.md",
                 "issues": "https://github.com/xpertbot/craft-wheelform/issues"
             },
-            "time": "2023-01-07T21:23:04+00:00"
+            "time": "2023-09-14T03:35:43+00:00"
         },
         {
             "name": "yiisoft/yii2",
