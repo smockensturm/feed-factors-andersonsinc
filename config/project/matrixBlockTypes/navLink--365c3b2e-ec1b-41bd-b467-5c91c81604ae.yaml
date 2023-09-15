@@ -1,0 +1,93 @@
+field: 866bd07d-ff5c-4080-84f1-f14fa925e4d5 # Link 3
+fieldLayouts:
+  1da6d4de-76ec-4cce-8add-a2977b3a3a52:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b1fdbc4a-7bd3-48a5-99cd-bf147bfe09e7 # Link Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83947c15-0c38-47a3-944c-5dc3a1f093c0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 83ecf1d5-6c2e-4881-852e-3596ced1a1ea # Link Destination
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fef8a83d-9f99-4430-8ebf-527d8a8f3447
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 13d896d8-4efb-4f19-9e38-a6f93fb870a8
+        userCondition: null
+fields:
+  83ecf1d5-6c2e-4881-852e-3596ced1a1ea: # Link Destination
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkDestination
+    instructions: null
+    name: 'Link Destination'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: 1
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  b1fdbc4a-7bd3-48a5-99cd-bf147bfe09e7: # Link Text
+    columnSuffix: hwjoakwb
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: null
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: navLink
+name: 'Nav Link'
+sortOrder: 1

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: dfd55486-848c-47c3-b7f3-a06bfac39166 # Header
+handle: link4
+instructions: null
+name: 'Link 4'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_link4}}'
+  maxBlocks: 1
+  minBlocks: 1
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

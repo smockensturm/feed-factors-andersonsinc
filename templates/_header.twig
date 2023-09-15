@@ -52,14 +52,20 @@
 				class="!visible mt-2 hidden basis-full items-center lg:mt-0 lg:!flex lg:basis-auto" id="navbarSupportedContent2" data-te-collapse-item>
 				<!-- Right links -->
 				<ul class="text-slate-900 list-style-none mr-auto flex flex-col pl-0 lg:mt-1 lg:flex-row" data-te-navbar-nav-ref>
-					{% for link in header.navLinks.all() %}
-						{% set destination = link.linkDestination.one() %}
+					{% for link1 in header.link1.all() %}
+						{% set destination = link1.linkDestination.one() %}
 						<li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-5" data-te-nav-item-ref>
-							<a class="focus:font-bold lg:px-2 " aria-current="page" href="{{destination.url}}" data-te-nav-link-ref>{{link.linkText}}</a>
+							<a class="focus:font-bold lg:px-2 " aria-current="page" href="{{destination.url}}" data-te-nav-link-ref>{{link1.linkText}}</a>
+						</li>
+					{% endfor %}
+					{% for link2 in header.link2.all() %}
+						{% set destination = link2.linkDestination.one() %}
+						<li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-5" data-te-nav-item-ref>
+							<a class="focus:font-bold lg:px-2 " aria-current="page" href="{{destination.url}}" data-te-nav-link-ref>{{link2.linkText}}</a>
 						</li>
 					{% endfor %}
 					<!-- Products -->
-					<li class="my-4 pl-2 lg:my-0 lg:pl-2" data-te-nav-item-ref>
+					<li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-5" data-te-nav-item-ref>
 						<div class="relative" data-te-dropdown-ref>
 							<a class="flex items-center lg:px-2" href="#" type="button" id="dropdownMenuButton2" data-te-dropdown-toggle-ref aria-expanded="false">
 								Products
@@ -79,6 +85,25 @@
 							</ul>
 						</div>
 					</li>
+
+					{% for link3 in header.link3.all() %}
+						{% set destination = link3.linkDestination.one() %}
+						<li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-5" data-te-nav-item-ref>
+							<a class="focus:font-bold lg:px-2 " aria-current="page" href="{{destination.url}}" data-te-nav-link-ref>{{link3.linkText}}</a>
+						</li>
+					{% endfor %}
+					{% for link4 in header.link4.all() %}
+						{% set destination = link4.linkDestination.one() %}
+						<li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-5" data-te-nav-item-ref>
+							<a class="focus:font-bold lg:px-2 " aria-current="page" href="{{destination.url}}" data-te-nav-link-ref>{{link4.linkText}}</a>
+						</li>
+					{% endfor %}
+					{% for link5 in header.link5.all() %}
+						{% set destination = link5.linkDestination.one() %}
+						<li class="my-4 pl-2 lg:my-0 lg:pl-2 lg:pr-5" data-te-nav-item-ref>
+							<a class="focus:font-bold lg:px-2 " aria-current="page" href="{{destination.url}}" data-te-nav-link-ref>{{link5.linkText}}</a>
+						</li>
+					{% endfor %}
 				</ul>
 			</div>
 		</div>
