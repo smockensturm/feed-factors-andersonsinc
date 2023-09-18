@@ -1,4 +1,4 @@
-dateModified: 1694793062
+dateModified: 1695032019
 email:
   fromEmail: clare_spafford@andersonsinc.com
   fromName: 'Feed Factors'
@@ -20,6 +20,7 @@ meta:
     1dbfb692-1c8e-44b2-802e-5f594f0d33e1: 'Link Text' # Link Text
     1ed059c1-ed1f-4a72-a56e-63058d7c494a: Thanks # Thanks
     01fc72d5-cc80-4ed1-8764-9b2c7d93ba2b: 'Link 2' # Link 2
+    2b7de561-0432-44c6-96d0-f1da0a31e868: 'Terms of Use' # Terms of Use
     2c6b65cb-cc6b-41f3-bcf6-986aeb8caef3: 'Footer Address' # Footer Address
     2cedafe6-1a11-4e4d-8dfe-cafd0f0f3c41: 'Link Text' # Link Text
     03ad00e1-88aa-4942-b038-669fd2f03edb: 'Link Destination' # Link Destination
@@ -77,6 +78,7 @@ meta:
     6860d189-127f-47f4-b4db-78acd881d3a9: 'Featured Service Link' # Featured Service Link
     22126b6d-616f-42d8-ba41-0520f5bf5d9d: 'Footer Products' # Footer Products
     24360fbd-1079-46cb-b732-a78b69def1e0: 'Admin Number' # Admin Number
+    50050c89-3e76-447a-930f-d3873463e6de: 'Terms of Use' # Terms of Use
     62832da1-ce05-4703-a31a-963835229fa2: 'Featured Award 2' # Featured Award 2
     69786f5c-16c1-4395-aafc-99b4168163b8: 'Accreditations Logos' # Accreditations Logos
     72743e88-3dd3-478e-83b3-747a3bb41bf1: 'Hero Image' # Hero Image

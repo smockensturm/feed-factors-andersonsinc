@@ -1,0 +1,70 @@
+fieldLayouts:
+  d0b976dd-29af-4612-b141-d95e584970cc:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 57ebba4e-94a2-4ace-8f65-11531afd951a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 959c8c36-64ab-4b18-80e1-cec06be400a7 # Hero Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d541ad3-f29e-49e3-85a3-d479ff08d78b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 348e185d-b316-4ccb-999c-49445b886346 # Hero Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e4ea5465-0e4a-49b0-a34f-2cd1eaadb468
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 417e6aba-84ce-452e-8663-a37d7a9ce479
+        userCondition: null
+handle: termsOfUse
+hasTitleField: false
+name: 'Terms of Use'
+section: 50050c89-3e76-447a-930f-d3873463e6de # Terms of Use
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
